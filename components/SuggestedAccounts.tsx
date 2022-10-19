@@ -23,6 +23,7 @@ const SuggestedAccounts = () => {
                   layout='responsive'
                 />
               </div>
+
               <div className='hidden lg:block'>
                 <p className='md:none  flex gap-1 items-center text-md font-bold text-primary lowercase'>{user.userName.replace(' ', '')}
                   <GoVerified className='text-blue-400' />
