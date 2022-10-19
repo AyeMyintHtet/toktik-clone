@@ -6,6 +6,7 @@ import userAuthStore from '../store/authStore'
 import { IUser } from '../types'
 
 const SuggestedAccounts = () => {
+
   const { fetchAllUsers, allUsers } = userAuthStore()
   useEffect(() => {
     fetchAllUsers();
